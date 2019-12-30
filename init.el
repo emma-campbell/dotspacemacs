@@ -90,6 +90,7 @@
   (setq-default
    dotspacemacs-distribution 'spacemacs
    dotspacemacs-configuration-layers '((
+                                        markdown
                                         python
                                         yamlconfig :location local)
                                        (display :location local)
